@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"com.translogix.rutas","l":"GestorRutas"},{"p":"com.translogix.rutas","l":"Parada"},{"p":"com.translogix.rutas","l":"Ruta"}];updateSearchResults();

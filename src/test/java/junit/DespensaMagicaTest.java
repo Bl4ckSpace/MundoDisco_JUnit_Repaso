@@ -36,7 +36,7 @@ class DespensaMagicaTest {
             assertSame(hechizoEsperado, despensaMagica.sacaHechizoDespensa("Bola Fuego"),
                 "No son iguales los hechizos.");
         } catch (DespensaMagicaVaciaException | HechizoInexistenteException e) {
-            throw new RuntimeException(e);
+            fail(e);
         }
     }
 
@@ -95,7 +95,7 @@ class DespensaMagicaTest {
             List<String> copiaUsados = new ArrayList<>(usados);
             assertEquals(copiaUsados, usados, "No están ordenados.");
         } catch (DespensaMagicaVaciaException | HechizoEnRecargaException e) {
-            throw new RuntimeException(e);
+            fail(e);
         }
     }
 
