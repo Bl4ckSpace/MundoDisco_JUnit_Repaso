@@ -77,7 +77,7 @@ class DespensaMagicaTest {
             assertEquals(usados.size(), despensaMagica.usarHechizos(nombresHechizos).size(),
                 "No son los mismos hechizos usados.");
         } catch (DespensaMagicaVaciaException | HechizoEnRecargaException e) {
-            throw new RuntimeException(e);
+            fail(e);
         }
     }
 
